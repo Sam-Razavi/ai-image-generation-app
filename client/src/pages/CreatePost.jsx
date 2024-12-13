@@ -29,7 +29,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
 
-        const response = await fetch('http://localhost:8080/api/v1/dalle', {
+        const response = await fetch('https://ai-image-backend-8a1m.onrender.com/api/v1/dalle', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -73,7 +73,7 @@ const handleSubmit = async (e) => {
         try {
             console.log('Submitting form data:', form);
 
-            const response = await fetch('http://localhost:8080/api/v1/post', {
+            const response = await fetch('https://ai-image-backend-8a1m.onrender.com/api/v1/post', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
