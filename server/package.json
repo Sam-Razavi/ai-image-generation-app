@@ -5,7 +5,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "clean-install": "rm -rf node_modules && npm install"
     },
     "author": "",
     "license": "ISC",
