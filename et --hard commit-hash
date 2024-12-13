@@ -1,0 +1,59 @@
+[33mcommit 75be2d144e883f71758b9d4730222dbe3d2c3618[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Sam <sam.sahbaei.razavi@iths.se>
+Date:   Fri Dec 13 11:27:33 2024 +0100
+
+    Remove .env file from tracking and add to .gitignore
+
+[33mcommit b1884a30c2e6dc8770d579c513761ae918d4aec7[m
+Author: Sam <sam.sahbaei.razavi@iths.se>
+Date:   Fri Dec 13 11:18:35 2024 +0100
+
+    working version
+
+[33mcommit 73814ccb025c287da3fcec92e98e110a616386b3[m
+Author: Sam <sam.sahbaei.razavi@iths.se>
+Date:   Fri Dec 13 09:52:31 2024 +0100
+
+    7th commit
+
+[33mcommit 758be3d05712d235b77882619dfe8d912eeeeb31[m
+Author: Sam <sam.sahbaei.razavi@iths.se>
+Date:   Thu Dec 12 15:57:22 2024 +0100
+
+    6th commit-
+
+[33mcommit f66b18fcce2c0394fde710177f22bc6fd04776d4[m
+Author: Sam <sam.sahbaei.razavi@iths.se>
+Date:   Thu Dec 12 15:52:23 2024 +0100
+
+    5th commit
+
+[33mcommit fdb40e34b28de60a8ecac5836883287d848a1165[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sam <sam.sahbaei.razavi@iths.se>
+Date:   Wed Dec 11 18:47:25 2024 +0100
+
+    4th commit
+
+[33mcommit 12d99880175bae3d97775e99a518ad3d9cc83347[m
+Author: Sam <sam.sahbaei.razavi@iths.se>
+Date:   Wed Dec 11 16:16:09 2024 +0100
+
+    added Home and CreatePost
+
+[33mcommit 9964e0c7f55b62ffba7b08ff6ee9479505543136[m
+Author: Sam <sam.sahbaei.razavi@iths.se>
+Date:   Wed Dec 11 15:56:37 2024 +0100
+
+    second commit
+
+[33mcommit 526cadb7c9b8d7d536a4e8508f43f89edcdd9793[m
+Author: Sam <sam.sahbaei.razavi@iths.se>
+Date:   Wed Dec 11 15:30:11 2024 +0100
+
+    added vite
+
+[33mcommit 5024de4c90404e038575701da0fe6a2e41c8866d[m
+Author: Sam Sahbaei Razavi <sam.sahbaei.razavi@iths.se>
+Date:   Wed Dec 11 15:25:23 2024 +0100
+
+    Initial commit
