@@ -5,8 +5,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js",
-        "clean-install": "rm -rf node_modules && npm install"
+        "start": "node index.js"
     },
     "engines": {
         "node": "20.11.0"
