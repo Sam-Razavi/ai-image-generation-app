@@ -22,6 +22,10 @@ router.route('/').post(async (req, res) => {
             }
         );
 
+        if (response.status === 503) {
+            return res.status(503).json({ message: 'Model is currently loading. Please try again later.' });
+        }
+
         if (!response.ok) {
             const error = await response.json();
             throw new Error(error.error || 'Failed to generate image');

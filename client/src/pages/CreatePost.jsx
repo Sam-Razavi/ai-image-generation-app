@@ -37,6 +37,12 @@ const CreatePost = () => {
           body: JSON.stringify({ prompt: form.prompt }),
         });
 
+        if (response.status === 503) {
+            // Model loading, retry after a delay
+            setTimeout(generateImage, 5000);
+            return;
+        }
+
         if (response.ok) {
           const blob = await response.blob(); // Parse binary response
           const reader = new FileReader();
